@@ -1,1 +1,69 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: times, sans-serif;
+    font-weight: 900;
+    background: #000000;
+    background: url('images/backdrop5.png') left;
+    padding: 3rem 0;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 0 0 11px rgba(255, 255, 255, 1);
+}
+h2 {
+    margin: 0 auto;
+    margin-top: 2.4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    text-shadow: 0 0 11px rgba(255, 255, 255, 1);
+}
+.bubble {
+    width: 95%;
+    border: 0.3rem solid #00a0d0;
+    padding: 1.4rem;
+    margin: 0 auto;
+    background: #adbfcf;
+    position: relative;
+    text-align: center;
+}
+.sub-title {
+    text-align: center;
+    color: #ffeecd;
+    margin: 1rem 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.7rem;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+    .sub-title2 {
+    text-align: center;
+    color: #ffff00;
+    margin-top: 5rem 0;
+    margin-bottom: 1.5rem 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 2rem;
+    text-shadow: 0 0 16px rgba(100, 0, 255, 1);
+}
+.me {
+    display: grid;
+    border: 2px solid lightblue;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    max-height: 60%;
+}
+.me:hover {
+    transform: scale(1.06);
+    border: 3px solid white;
+    tint: black;
+    z-index: 2;
+}
