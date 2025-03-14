@@ -58,7 +58,7 @@ body {
     font-family: serif, sans-serif;
     border: 0rem solid black;
     padding: 6rem;
-    background: url('../images/back.png') center top;
+    background: url('./../images/back.png') center top;
     text-shadow: 0 0 10px rgba(200, 0, 0, 1);
 }
 .sub-title {
