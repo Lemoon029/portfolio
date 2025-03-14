@@ -22,7 +22,7 @@ body {
     position: relative;
 }
 .section3 {
-    background: url('main/images/backdrop2.png') left;
+    background: url('../images/backdrop2.png') left;
     padding: 3rem 0;
 }
 .section3 img {
@@ -30,7 +30,7 @@ body {
     border: 3px solid #000530;
 }
 .section4 {
-    background: url('main/images/backdrop4.png') center top;
+    background: url('../images/backdrop4.png') center top;
     padding: 3rem 0;    
 }
 .section4 img {
@@ -38,7 +38,7 @@ body {
     border: 3px solid #200000;
 }
 .section5 {
-    background: url('main/images/backdrop3.png') center top;
+    background: url('../images/backdrop3.png') center top;
     padding: 3rem 0;   
 }
 .section5 img {
@@ -58,7 +58,7 @@ body {
     font-family: serif, sans-serif;
     border: 0rem solid black;
     padding: 6rem;
-    background: url('portfolio/images/back.png') center top;
+    background: url('../images/back.png') center top;
     text-shadow: 0 0 10px rgba(200, 0, 0, 1);
 }
 .sub-title {
@@ -166,7 +166,7 @@ body {
 .form-popup {
     display: none;
     border: 3px solid #101530;
-    background: url('main/images/backdrop.png') center top;
+    background: url('../images/backdrop.png') center top;
     border-radius: 7px;
     width: 320px;
 }
@@ -185,7 +185,7 @@ button:hover {
     border: 2px solid lightgray;
 }
 .form {
-    background: url('main/images/backdrop2.png') left;
+    background: url('../images/backdrop2.png') left;
     color: darkblue;
     padding-left: 10px;
     font-size: 1.5rem;
